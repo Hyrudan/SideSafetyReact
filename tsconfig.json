@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx", // ou "react" para React 17 ou anterior
+    "noEmit": true,
+    "types": ["node", "jest"]
+  },
+  "include": [
+    "src",
+    "src/images.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
