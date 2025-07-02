@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "./components/Header";
-import Banner from "./components/Banner";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import Header from "./src/components/Header";
+import Banner from "./src/components/Banner";
+import MainContent from "./src/components/MainContent";
+import Footer from "/components/Footer";
 
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/font-awesome.min.css";
