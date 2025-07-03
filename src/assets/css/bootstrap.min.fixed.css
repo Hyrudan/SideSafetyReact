@@ -99,7 +99,7 @@ button, html input[type=button], input[type=reset], input[type=submit] {
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
+  -webkit--webkit-appearance: button;-moz-appearance: button;appearance: button;
   -moz-appearance: button;
   appearance: button;
   cursor: pointer;
@@ -108,7 +108,7 @@ input[type="submit"] {
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
+  -webkit--webkit-appearance: button;-moz-appearance: button;appearance: button;
   -moz-appearance: button;
   appearance: button;
   cursor: pointer;
@@ -2307,7 +2307,9 @@ border:0
 textarea.form-control {
 	height: auto
 }
-
+input[type=search] {
+	-webkit-appearance: none
+}
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 input[type=date].form-control, input[type=time].form-control, input[type=datetime-local].form-control, input[type=month].form-control {
 	line-height: 34px
@@ -4819,11 +4821,12 @@ button.close {
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
+  -webkit--webkit-appearance: button;-moz-appearance: button;appearance: button;
   -moz-appearance: button;
   appearance: button;
   cursor: pointer;
 }
+	-webkit-appearance: none;
 	padding: 0;
 	cursor: pointer;
 	background: 0 0;

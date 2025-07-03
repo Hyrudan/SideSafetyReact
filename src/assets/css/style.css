@@ -1,3 +1,12 @@
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* Safari, Chrome */
+  -moz-appearance: button;    /* Firefox */
+  appearance: button;         /* Padrão */
+  cursor: pointer;
+}
 @media screen and (max-width:1300px){
 .carousel-caption span{
 	font-size:40px;
